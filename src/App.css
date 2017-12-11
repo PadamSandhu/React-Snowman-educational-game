@@ -1,0 +1,241 @@
+body, html{
+  height: 100vh;
+  background: #2EA7E0;
+}
+
+.App {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navBar{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.App h1{
+  font-size: 3em;
+}
+
+button {
+  color: #fff;
+  font-size: 2em;
+  background-color: black;
+  text-shadow: 2px 2px dimgrey;
+  padding:10px;
+  border: none;
+}
+
+.hat{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  bottom: 450px;
+  left: 367px;
+  border: 7px solid black;
+  background-color: black;
+
+
+}
+.hat__brim{
+  width: 200%;
+  bottom: -7px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  height: 10px;
+  background-color: black;
+  position: absolute;
+}
+
+.rope{
+  position: absolute;
+  height: 50px;
+  width: 10px;
+  bottom: 450px;
+  left: 385px;
+  background-color: black;
+}
+
+.head__eye{
+  position: absolute;
+  top: 20%;
+  width: 15%;
+  height: 15%;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.head__eye--left{
+  left: 15%;
+}
+
+.head__eye--right{
+  right: 15%;
+}
+
+.head__nose{
+  position: absolute;
+  bottom: 20px;
+  left: 27px;
+  width: 0; 
+  height: 0; 
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  
+  border-left: 25px solid orange;
+
+}
+
+.head{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: 380px;
+  left: 353px;
+  border-radius: 100px;
+  border: 7px solid black;
+  background-color: white;
+}
+
+.body{
+  position: absolute;
+  width: 7px;
+  height: 120px;
+  bottom: 260px;
+  left: 387px;
+  background-color: white;
+}
+
+.body--top{
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  bottom: 290px;
+  left: 346px;
+  border: solid 5px black;
+  border-radius: 40px;
+  background-color: white;
+}
+
+.body--bottom{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  bottom: 165px;
+  left: 327px;
+  border: solid 5px black;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.body__button{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: black;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.body__button--top{
+  top: 25%;
+}
+
+.body__button--middle{
+  top: 45%;
+}
+
+
+.body__button--bottom{
+  top: 65%;
+}
+
+.leftArm{
+  transform: rotate(-45deg);
+  position: absolute;
+  height: 60px;
+  width: 7px;
+  bottom: 320px;
+  left: 325px;
+  background-color: black;
+}
+
+.rightArm{
+  transform: rotate(45deg);
+  position: absolute;
+  height: 60px;
+  width: 7px;
+  bottom: 320px;
+  left: 455px;
+  background-color: black;
+}
+
+.leftLeg{
+  transform: rotate(45deg);
+  position: absolute;
+  height: 60px;
+  width: 7px;
+  bottom: 210px;
+  left: 365px;
+  background-color: black;
+}
+
+.rightLeg{
+  transform: rotate(-45deg);
+  position: absolute;
+  height: 60px;
+  width: 7px;
+  bottom: 210px;
+  left: 409px;
+  background-color: black;
+}
+
+.guess{
+  font-size: 2em;
+}
+
+.gameContainer{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+}
+
+.gaaaameState{
+  color: blue;
+}
+.win{
+  color: greenyellow;
+}
+.loss{
+  color: red;
+}
+
+.hidden{
+  display: none;
+  
+}
+
+.answer{
+  color:whitesmoke;
+}
+
+.answer1{
+  color:lightgray;
+}
+
+.answer2{
+  color:lightsalmon;
+}
+.answer3{
+  color:wheat;
+}
+.answerM{
+  color:white;
+}
+
