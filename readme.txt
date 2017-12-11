@@ -14,7 +14,7 @@ download this terminal from
 
 2) Type command "NPM install" to install all the dependencies.
 
-3) Type command {nom start}
+3) Type command {npm start}
 
 4) Go to your default browser at http://localhost:3000/ 
 
